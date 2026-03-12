@@ -218,11 +218,14 @@ class _WidgetShowcase extends StatelessWidget {
             color: cs.surfaceContainerHighest,
             borderRadius: BorderRadius.circular(20),
           ),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          child: Wrap(
+            alignment: WrapAlignment.spaceEvenly,
+            spacing: 16,
+            runSpacing: 16,
             children: [
               // NerveBatteryIcon
               Column(
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   const NerveBatteryIcon(size: 48),
                   const SizedBox(height: 8),
@@ -233,6 +236,7 @@ class _WidgetShowcase extends StatelessWidget {
               ),
               // NervePulse
               Column(
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   NervePulse(
                     maxScale: 1.4,
@@ -248,6 +252,7 @@ class _WidgetShowcase extends StatelessWidget {
               ),
               // NerveGlow
               Column(
+                mainAxisSize: MainAxisSize.min,
                 children: [
                   NerveGlow(
                     color: cs.primary,

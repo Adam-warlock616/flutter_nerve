@@ -1,9 +1,9 @@
 name: flutter_nerve
 description: A sensory-reactive UI engine for Flutter. Make your app feel the real world — react to battery, network, motion, light, and sound.
 version: 0.2.0
-homepage: https://github.com/yourusername/flutter_nerve
-repository: https://github.com/yourusername/flutter_nerve
-issue_tracker: https://github.com/yourusername/flutter_nerve/issues
+homepage: https://github.com/Adam-warlock616/flutter_nerve
+repository: https://github.com/Adam-warlock616/flutter_nerve
+issue_tracker: https://github.com/Adam-warlock616/flutter_nerve/issues
 
 topics:
   - sensors

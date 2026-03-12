@@ -3,7 +3,7 @@
 **A sensory-reactive UI engine for Flutter.** Make your app feel the real world — react to battery level, network quality, motion, ambient light, and sound with zero boilerplate.
 
 [![pub.dev](https://img.shields.io/pub/v/flutter_nerve.svg)](https://pub.dev/packages/flutter_nerve)
-[![CI](https://github.com/yourusername/flutter_nerve/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/flutter_nerve/actions)
+[![CI](https://github.com/Adam-warlock616/flutter_nerve/actions/workflows/ci.yml/badge.svg)](https://github.com/Adam-warlock616/flutter_nerve/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---

@@ -92,6 +92,7 @@ class _MonitorPanel extends StatelessWidget {
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 200),
         width: collapsed ? 44 : 200,
+        clipBehavior: Clip.antiAlias,
         decoration: BoxDecoration(
           color: const Color(0xDD1A1A2E),
           borderRadius: BorderRadius.circular(12),
@@ -103,7 +104,14 @@ class _MonitorPanel extends StatelessWidget {
             ),
           ],
         ),
-        child: collapsed ? _CollapsedIcon() : _ExpandedContent(state: state),
+        child: collapsed
+            ? _CollapsedIcon()
+            : OverflowBox(
+                minWidth: 200,
+                maxWidth: 200,
+                alignment: Alignment.topLeft,
+                child: _ExpandedContent(state: state),
+              ),
       ),
     );
   }
