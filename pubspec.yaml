@@ -1,0 +1,35 @@
+name: flutter_nerve
+description: A sensory-reactive UI engine for Flutter. Make your app feel the real world — react to battery, network, motion, light, and sound.
+version: 0.2.0
+homepage: https://github.com/yourusername/flutter_nerve
+repository: https://github.com/yourusername/flutter_nerve
+issue_tracker: https://github.com/yourusername/flutter_nerve/issues
+
+topics:
+  - sensors
+  - reactive
+  - ui
+  - battery
+  - motion
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.10.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sensors_plus: ^6.1.1
+  battery_plus: ^6.2.1
+  connectivity_plus: ^6.1.4
+  record: ^6.2.0
+  light: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  # No assets for pure-dart package
+
